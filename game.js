@@ -10,7 +10,7 @@ const Player = (name, symbol) => {
     return {getSymbol, getName};
 }
 
-//Inicialization of Players
+//initalization of Players
 namesDialog.showModal();
 namesDialogButton.addEventListener('click', (event) => {
     const form = namesDialog.querySelector('form');
